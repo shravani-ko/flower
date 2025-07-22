@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blossom Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blossom Boutique</h1>
+    <nav>
+      <a href="#flowers">Flowers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fresh Flowers Delivered to Your Door</h2>
+    <p>Beautiful blooms for every occasion</p>
+  </section>
+
+  <section id="flowers" class="flower-gallery">
+    <h2>Our Flowers</h2>
+    <div class="flower-card">
+      <img src="5.jpg" alt="Rose">
+      <h3>Rose</h3>
+      <p>$10 per stem</p>
+    </div>
+    <div class="flower-card">
+      <img src="2.jpg" alt="Tulip">
+      <h3>Tulip</h3>
+      <p>$8 per stem</p>
+    </div>
+    <div class="flower-card">
+      <img src="7.jpg" alt="Sunflower">
+      <h3>Sunflower</h3>
+      <p>$12 per stem</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Blossom Boutique</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
